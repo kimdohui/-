@@ -6,25 +6,27 @@ class EventPractice extends Component {
     message: ""
   };
 
-  /* 밑에 함수 선언을 화살표 함수로 선언했다면 필요 없음(메서드 바인딩 과정이 따로 필요 없음)
-  constructor(props) {
-    super(props);
-    this.handleChange = this.handleChange.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-  }
-*/
+  //key값 설정
   handleChange = e => {
     this.setState({
       [e.target.name]: e.target.value
     });
   };
 
+  //설정된 값 출력(경고창으로)과 초기화
   handleClick = () => {
     alert(this.state.username + " : " + this.state.message);
     this.setState({
       username: "",
       message: ""
     });
+  };
+
+  //엔터키 입력 시 실행
+  handleKeyPress = e => {
+    if (e.key === "Enter") {
+      this.handleClick();
+    }
   };
 
   render() {
@@ -45,6 +47,7 @@ class EventPractice extends Component {
           placeholder="입력해주세요"
           value={this.state.message}
           onChange={this.handleChange}
+          onKeyPress={this.handleKeyPress}
         />
 
         <button onClick={this.handleClick}>확인버튼</button>
