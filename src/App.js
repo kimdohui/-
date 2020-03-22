@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SassComponent from "./ComponentStyle/SassComponents";
+import SassComponent from "./SassComponents";
 
 class App extends Component {
   render() {

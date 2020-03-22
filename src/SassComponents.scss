@@ -1,6 +1,10 @@
-@import "./ComponentStyle/util";
+@import "./util";
 .SassComponent {
   display: flex;
+  background: $oc-gray-2;
+  @include media("<768px") {
+    background: $oc-gray-9;
+  }
   .box {
     //일반 css에선 .SassComponent .box 와 같다.
     background: red;
@@ -11,7 +15,6 @@
       background: red;
       @include square(1);
     }
-    ,
     &.orange {
       //.red 클래스가 .box와 함께 사용되었을 때
       background: orange;
