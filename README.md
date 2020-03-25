@@ -23,5 +23,5 @@ react의 시작부터 활용까지 공부해나가는 repository
 - 2020/03/22(컴포넌트 스타일링(기본css, scss사용))
 - 2020/03/23(css Module, styled-component)
 - 2o2o/03/24(react를 활용한 To-do-List만들기 / 주소 : https://github.com/kimdohui/To-do-list_React )
-- 2020/03/25(컴포넌트 성능 최적화(useState 함수형 업데이트)
-- 2020/03/26(컴포넌트 성능 최적화(useReducer 사용)
+- 2020/03/25(컴포넌트 성능 최적화(useState 함수형 업데이트  / 주소 : https://github.com/kimdohui/To-do-list_React )
+- 2020/03/26(컴포넌트 성능 최적화(useReducer 사용  / 주소 : https://github.com/kimdohui/To-do-list_React )
