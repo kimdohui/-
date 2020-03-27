@@ -25,3 +25,4 @@ react의 시작부터 활용까지 공부해나가는 repository
 - 2o2o/03/24(react를 활용한 To-do-List만들기 / 주소 : https://github.com/kimdohui/To-do-list_React )
 - 2020/03/25(컴포넌트 성능 최적화(useState 함수형 업데이트  / 주소 : https://github.com/kimdohui/To-do-list_React )
 - 2020/03/26(컴포넌트 성능 최적화(useReducer 사용  / 주소 : https://github.com/kimdohui/To-do-list_React )
+- 2020/03/27(react-virtualized를 이용한 렌더링 최적화 / 주소 : https://github.com/kimdohui/To-do-list_React )
